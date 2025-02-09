@@ -91,8 +91,10 @@ button {
 
 .hero{
     padding-top: 81px;
-}
-.hero__wrapper{
+    // background: url(../image/hero-bg.svg)no-repeat center/cover;
+ 
+
+}.hero__wrapper{
     display: flex;
     gap: 61px;
   
@@ -298,10 +300,13 @@ button {
     line-height: 80px;
     color: #000;
     font-family: "Poppins", serif;
+    margin-bottom: 70px;
 }
+
 .price__box{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
 }
 .price__image{
     padding-top: 150px;
@@ -351,53 +356,145 @@ button {
     #263238;
 }
 
+.price__mains{
+    padding-top: 89px;
+}
 
+.price__title{
+    margin-top: 30px;
+}
 
+.contact__box{
+    display: flex;
+    gap: 112px;
+}
+.contact__image{
+    padding-top: 270px;
+}
+.contact__main{
+    padding-top: 270px;
+}
+.contact__main h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000;
+    font-family: "Poppins", serif;
+}
 
+.contact__main p{
+    width: 776px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    font-family: "Poppins", serif;
+    padding-top: 37px;
+}
+.contact__btns{
+    padding-top: 90px;
+}
+.contact__email{
+    padding: 25px 350px 25px 23px;
+    background: #FFF;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    color: #8F95A5;
+}
+.contact__sub{
+    padding: 25px 81px;
+    border-radius: 10px;
+    background: #263238;
+    color: #fff;
+    border: none;
+    transition: .3s;
+}
+.contact__sub:hover{
+    background: #fff;
+    color: #263238;
 
+}
+.contact__rect{
+    padding-top: 240px;
+    margin-bottom: 54px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:600px) {
-    .about__image img{
-        display: block
-    }
-    .about{
-        grid-template-columns: 1fr;
-    }
+.brit__box{
    
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    gap: 5px;
+    padding: 0px 20px;
+}
+
+.brit__lists{
+    display: flex;
+}
+
+.brit__main h1{
+    width: 106px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+.brit__lex{
+    color: #8F95A5;
+    font-family: "Poppins", serif;
+}
+.brit__list{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    font-family: "Poppins", serif;
+}
+.brit__list:hover{
+    color: #2A3246 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px) {
+    .hero__image{
+      display: inline-block;
+    }
+    .btn__word{
+        display: none;
+    }
+    .navbar__icon{
+        display: inline-block;
+        margin-left: 999px;
+    }
     .navbar{
         .navbar__lists{
             display: none;
         }
-        .btn__word{
-            display: none;
-        }
-        .navbar__icon{
-            display: inline-block;
-        }
     }
-    .hero{
-        display: flex;
-        flex-direction: column;}
-    }
-   
-
+}
  
