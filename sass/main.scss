@@ -20,9 +20,6 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
-body{
-    height: 700vh;
-}
 
 li {
     list-style: none;
@@ -480,21 +477,5 @@ button {
 
 
 
-@media (max-width:990px) {
-    .hero__image{
-      display: inline-block;
-    }
-    .btn__word{
-        display: none;
-    }
-    .navbar__icon{
-        display: inline-block;
-        margin-left: 999px;
-    }
-    .navbar{
-        .navbar__lists{
-            display: none;
-        }
-    }
-}
+
  
